@@ -1,0 +1,43 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: slateblue;
+}
+
+.recipe-list{
+    padding: 0px;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.list-item{
+    font-size: 20px;
+    border: 3px solid slateblue;
+    border-radius: 10px;
+    display: inline-flex;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.list-item span{
+    display: block;
+    margin: 10px;
+}
+
+.list-item img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.food{
+    width: 30%;
+    border-radius: 10px;
+}
